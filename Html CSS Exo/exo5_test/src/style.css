@@ -1,0 +1,28 @@
+h1 {
+ font-family: system-ui;
+  color: cornsilk;
+  text-align: center;
+  margin: 1;
+}
+
+body {
+  font-family: cursive;
+  background: cadetblue;
+  color: darkslateblue;
+  text-align: center;
+  margin: 1;
+}
+
+p1{
+  font-family: fantasy;
+}
+
+p2 {
+  font-family: cursive;
+  color: burlywood;
+  text-align: center;
+}
+.container {
+  margin-top: 1em;
+  color: burlywood;
+}

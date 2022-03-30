@@ -1,0 +1,19 @@
+h1 {
+  text-align: right;
+    font-size: 150%;
+    color: grey;
+    text-align: left;
+}
+
+p {
+  text-align: right;
+    font-size: 150%;
+    color: grey;
+    text-align: left;
+}
+
+body {
+  background-color: honeydew;
+    color: grey;
+    font-size: 100%;
+}

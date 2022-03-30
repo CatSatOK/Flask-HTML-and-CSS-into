@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+       <title>Users</title>
+        <link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">First name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Pseudo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row["first_name"] }}</td>
+                <td>{{ row["surname"] }}</td>
+                <td>{{ row["gender"] }}</td>
+                <td>{{ row["pseudo"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('home') }}"> Back to homepage </a>
+</html>

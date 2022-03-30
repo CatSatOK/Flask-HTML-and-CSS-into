@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+    <head>
+      <title>HomePage</title>
+      <link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+      <h1 class = "tree" >{{ message_home }}</h1>
+      <a href="{{ url_for('next') }}"> Want to see next page? </a>
+    </body>      
+</html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+      <title>HomePage</title>
+      <link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+        <p> {% if gender == 'M' %}
+          <h1> Hello Mr {{ first_name }} {{ surname }}, your username is {{ pseudo }}</h1>
+            {% else %}  
+          <h1> Hello Ms {{ first_name }} {{ surname }}, your username is {{ pseudo }}</h1> 
+            {% endif %}         
+        </p>
+      <a href="{{ url_for('home') }}"> Back to homepage </a>
+    </body>
+</html>
